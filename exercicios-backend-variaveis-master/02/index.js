@@ -1,4 +1,4 @@
-let fahrenheit = 73;
-let celsius = (fahrenheit - 32) * 5 / 9;
+const fahrenheit = 73
+const celsius = (fahrenheit - 32) * 5 / 9;
 
 console.log(celsius);
