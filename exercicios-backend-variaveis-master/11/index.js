@@ -1,7 +1,6 @@
-var d = 6;
-var r = d / 2;
-var pi = Math.PI;
+const d = 6;
+const pi = 3.14;
+const r = d / 2
+const v = 4 / 3 * Math.pow(r, 3);
 
-var v = (4 / 3) * pi * Math.pow(r, 3);
-
-console.log("Volume da esfera: " + v.toFixed(2));
+console.log(`O volume de uma esfera de raio 3 é ${v} PI`);
