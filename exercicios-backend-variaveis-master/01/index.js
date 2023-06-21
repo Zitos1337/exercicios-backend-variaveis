@@ -1,5 +1,5 @@
-let peso = 76;
-let altura = 1.79;
-let indiceDeMassaCorporal = 76 / (1.79 * 1.79);
+const P = 76
+const A = 1.79
+const indiceDeMassaCorporal = P / (A * A);
 
 console.log(indiceDeMassaCorporal);
