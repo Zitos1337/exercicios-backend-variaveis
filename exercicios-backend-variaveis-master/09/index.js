@@ -1,7 +1,6 @@
-var n = 6;
+const n = 6;
+const s = (n - 2) * 180;
+const a = s / n;
 
-var S = (n - 2) * 180;
-var a = S / n;
-
-console.log("Soma dos ângulos internos: " + S + " graus");
-console.log("Valor de cada ângulo: " + a + " graus");
+console.log(`O valor da soma dos ângulos internos é ${s}`)
+console.log(`O valor de cada ângulo é ${a}`);
