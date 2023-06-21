@@ -1,7 +1,6 @@
-var a = 5;
-var b = 5;
-var c = 1;
+const a = 5
+const b = 5
+const c = 1
 
-var delta = Math.pow(b, 2) - 4 * a * c;
-
-console.log("Delta: " + delta);
+const delta = Math.pow(b, 2) - 4 * a * c;
+console.log(delta);
