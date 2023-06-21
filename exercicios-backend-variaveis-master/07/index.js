@@ -1,7 +1,6 @@
-var Po = 1000;
-var x = 4;
-var t = 7;
+const po = 1000;
+const x = 4;
+const t = 7;
+const p = po * Math.pow(x, t / 7)
 
-var P = Po * Math.pow(x, t / 7);
-
-console.log(P);
+console.log(p)
